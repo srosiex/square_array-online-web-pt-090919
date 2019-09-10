@@ -7,7 +7,6 @@ def square_array(array)
   return array(new_array)
 end
 #
-# def square_array(numbers)
-#   new_numbers = numbers.collect{|num| num ** 2}
-#   return new_numbers
-# end
+def square_array_collect(array)
+  myValue.collect {|n| n*2}
+end
